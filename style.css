@@ -1,0 +1,35 @@
+body{
+    background-color: lightgreen;
+    color: darkblue;
+    font-family: Arial;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align:center
+}
+
+img{
+    margin: 15px;
+    text-align: center;
+}
+
+p{
+    font-size: larger;
+}
+
+a{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+}

@@ -12,9 +12,13 @@ h2{
     text-align: center;
 }
 
-img{
-    margin: 15px;
+#image{
     text-align: center;
+} 
+/* for entire div, this will work here margin didn't work as it was considering all the images together instead of setting margins seperately for others */
+
+img{
+    margin-right: 35px;
 }
 
 p{

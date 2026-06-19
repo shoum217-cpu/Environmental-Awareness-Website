@@ -1,54 +1,62 @@
-body{
+body {
     background-color: lightgreen;
     color: darkblue;
     font-family: Arial;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-#image{
+#image {
     text-align: center;
-} 
+}
+
 /* for entire div, this will work here margin didn't work as it was considering all the images together instead of setting margins seperately for others */
 
-img{
+img {
     margin-right: 35px;
+    box-shadow: 5px 5px 2px grey;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 
-p{
+p {
     font-size: larger;
 }
 
-a{
+a {
     margin-right: 20px;
     font-size: 23px;
     color: blue;
 }
 
-li{
+a:hover{
+    color: rgb(228, 7, 7);
+}
+
+li {
     font-size: 20px;
 }
 
-label{
+label {
     font-size: 20px;
 }
 
-#problems a{
+#problems a {
     color: darkblue;
     font-size: 18px;
 }
 
-#thanks{
+#thanks {
     font-size: 40px;
     text-align: center;
 }
 
-#cute{
+#cute {
     text-align: center;
 }
